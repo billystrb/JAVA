@@ -6,8 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//Προγραμμα για τον ελεγχο 
-		//εγκυροτητας μιας  ημερομηνιας 
+		//Cheking  for a valid date
+		//with the form of xx/yy/zzzz
 		
 		Scanner in = new Scanner(System.in);
 		
@@ -27,8 +27,8 @@ public class Main {
 		System.out.println(year);
 		int yearValue=Integer.parseInt(year) ;
 		
-		//θετω οριο ημερομηνιων που με ενδιαφερουν
-		//απο το  1500 μεχρι και το 2500
+		//Giving a  range in section years
+		//im  interested to 1500-2500
 		
 		switch(monthValue) {
 			case 1:
